@@ -1,5 +1,5 @@
 # spaCyofChinese_ING_202005
-用于建立spaCyV2.2 中文语言模型
+用于建立spaCyV2.2 中文语言模型(按文件No序号执行脚本)
 
 1.下载chs-gsd-ud并将其转换为spacy可以读取的json格式文件
 
