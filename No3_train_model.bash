@@ -1,0 +1,2 @@
+
+python -m spacy train zh spacy_models/dependency_model spacy_corpus_pos/spacy/chs_gsd-ud-train.json spacy_corpus_pos/spacy/chs_gsd-ud-dev.json --pipeline tagger,parser -v zh_model -m zh_model/meta.json -V 0.1.0 -n 1
