@@ -7,8 +7,9 @@
 
 3.使用步骤1转换好的文件进行训练，得到spacy tagger,parser管道模型
 
-4.对自己收集到的NER训练语料进行转换，转换为可以用于SPACY训练的json格式文件格式，具体格式请参考
-https://github.com/explosion/spacy/blob/master/examples/training/training-data.json
+4.对自己收集到的NER训练语料(CLUENER2020 https://storage.googleapis.com/cluebenchmark/tasks/cluener_public.zip )
+  进行转换，转换为可以用于SPACY训练的json格式文件格式，具体格式请参考
+  https://github.com/explosion/spacy/blob/master/examples/training/training-data.json
 
 5.使用步骤4得到的json格式文件进行NER管道训练
 
